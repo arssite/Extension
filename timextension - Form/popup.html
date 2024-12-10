@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time Extension</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <div id="form-container" style="display: none;">
+      <h2>Welcome!</h2>
+      <p>Please provide your details:</p>
+      <form id="user-form">
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" required>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <div id="time-container" style="display: none;">
+      <h1>Current Time</h1>
+      <p id="current-time">Loading...</p>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
